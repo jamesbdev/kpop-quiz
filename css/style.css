@@ -1,11 +1,15 @@
 .mainContainer {
   width: 50%;
-  margin: 0 auto;
+  margin: 5em auto;
   text-align: center;
+  border: 2px solid pink;
+  border-radius: 2%;
+
 }
 
 body {
   font-family: Helvetica, Arial, sans-serif;
+  background-color: #FFEBCD;
 }
 
 
@@ -16,4 +20,13 @@ body {
   border-radius: 0.4em;
   height: 2em;
   margin: 2em 0;
+}
+
+footer {
+  margin: 5em 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
 }
